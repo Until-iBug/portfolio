@@ -262,6 +262,9 @@ h3{
 #please{
   gap:1rem;
 }
+ .cline span{
+ overflow-wrap:break-word; 
+}
 }
 
 @media (max-width: 480px) {

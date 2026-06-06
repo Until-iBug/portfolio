@@ -130,7 +130,7 @@ button {
   flex-wrap: wrap;
   font-size: clamp(1rem, 5vw, 2rem);
   /* gap: 1rem; */
-  gap:80rem;
+  /* gap:80rem; */
   padding-top:30px ;
 
 }
@@ -141,9 +141,12 @@ button {
 .learnbox{
   gap:1rem;
 }
+.asec11,.asec12{
+  width:50%;
+}
 #please{
   display: flex;
-  gap:68rem;
+  /* gap:68rem; */
   
 }
 .project{
@@ -217,14 +220,14 @@ h3{
 }
 
 /* Responsive Breakpoints */
-@media (min-width:768px) and (max-width:2000px){
+/* @media (min-width:768px) and (max-width:2000px){
   .asec1{
    gap:50%;
   }
   #please{
     gap:39%;
   }
-}
+} */
 @media (max-width: 768px) {
   .head {
     flex-direction: column;
